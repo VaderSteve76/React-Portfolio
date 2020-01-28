@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { slideInRight } from 'react-animations';
+
+const slideIn = keyframes`${slideInRight}`;
 
 const Header = styled.div`
+  animation: 2s ${slideIn};
   background-color: rgb(82, 170, 254);
-  height: 65px;
+  height: 75px;
 `;
 
 const Title = styled.div`
