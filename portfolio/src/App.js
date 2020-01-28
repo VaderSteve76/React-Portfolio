@@ -1,11 +1,11 @@
 import React from 'react';
-import AppBar from './Components/AppBar';
+import Header from './Components/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <AppBar />
+      <Header />
     </div>
   );
 }
