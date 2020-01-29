@@ -7,8 +7,8 @@ const fadeInAnimation = keyframes`${slideInLeft}`;
 const MainCard = styled.div`
   animation: 2.5s ${fadeInAnimation};
   border-radius: 5px;
-  background: rgb(82, 170, 254);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgb(154, 154, 154);
+  box-shadow: 8px 8px 8px black;
   height: 180px;
   width: 300px;
   margin-top: 25px;
