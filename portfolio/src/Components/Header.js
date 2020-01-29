@@ -5,7 +5,7 @@ import { slideInRight } from 'react-animations';
 const slideIn = keyframes`${slideInRight}`;
 
 const Header = styled.div`
-  animation: 2.1s ${slideIn};
+  animation: 3s ${slideIn};
   // background-color: rgb(82, 170, 254);
   // background-color: rgb(14, 38, 225);
   height: 75px;

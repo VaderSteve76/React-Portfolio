@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { slideInLeft } from 'react-animations';
+import { fadeIn } from 'react-animations';
 
-const fadeInAnimation = keyframes`${slideInLeft}`;
+const fadeInAnimation = keyframes`${fadeIn}`;
 
 const MainCard = styled.div`
-  animation: 2.5s ${fadeInAnimation};
+  animation: 4s ${fadeInAnimation};
   border-radius: 5px;
   background: rgb(154, 154, 154);
   box-shadow: 8px 8px 8px black;
   height: 180px;
   width: 300px;
+  // margin-left: 25px;
+  // margin-bottom: 25px;
+  margin: 0 auto;
   margin-top: 25px;
-  margin-left: 25px;
   text-align: center;
 `;
 
