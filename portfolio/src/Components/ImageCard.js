@@ -11,7 +11,7 @@ const MAIN = styled.div`
 `;
 
 const IMG = styled.div`
-  animation: 2.5s ${slideIn};
+  animation: 2.7s ${slideIn};
   height: 450px;
   width: 600px;
   box-shadow: 8px 8px 8px black;
@@ -24,7 +24,7 @@ const IMG = styled.div`
 `;
 
 const ABOUT = styled.div`
-  animation: 2.5s ${slideIn};
+  animation: 2.7s ${slideIn};
   height: 450px;
   width: 600px;
   box-shadow: 8px 8px 8px black;
