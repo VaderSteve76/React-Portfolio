@@ -6,8 +6,6 @@ const slideIn = keyframes`${slideInRight}`;
 
 const Header = styled.div`
   animation: 3.3s ${slideIn};
-  // background-color: rgb(82, 170, 254);
-  // background-color: rgb(14, 38, 225);
   height: 75px;
   width: 75%;
   margin: 0 auto;
@@ -22,7 +20,7 @@ const Title = styled.div`
   padding-top: 15px;
   letter-spacing: 8px;
   font-weight: bold;
-  text-shadow: 2px 2px 0px #7A7A7A;
+  text-shadow: 8px 8px 8px black;
   text-align: center;
   transform: scale(1.5) skew(-8deg, 0deg);
 `;
