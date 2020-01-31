@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Components/Header';
 import ContactCard from './Components/ContactCard';
 import ImageCard from './Components/ImageCard';
+import TodoApp from './Components/TodoApp';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <ContactCard />
       <ImageCard />
+      <TodoApp />
     </div>
   );
 }

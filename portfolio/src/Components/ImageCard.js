@@ -7,7 +7,7 @@ const slideIn = keyframes`${slideInLeft}`;
 
 const MAIN = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 `;
 
 const IMG = styled.div`
@@ -43,7 +43,7 @@ const TITLE = styled.div`
 
 const INFO = styled.div`
   font-family: Trebuchet MS;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: center;
   padding: 10px;
 `;
