@@ -34,6 +34,7 @@ const ABOUT = styled.div`
 `;
 
 const TITLE = styled.div`
+  font-family: Trebuchet MS;
   font-weight: bold;
   font-size: 1.8em;
   text-align: center;
@@ -41,6 +42,7 @@ const TITLE = styled.div`
 `;
 
 const INFO = styled.div`
+  font-family: Trebuchet MS;
   font-size: 1.3em;
   text-align: center;
   padding: 10px;
