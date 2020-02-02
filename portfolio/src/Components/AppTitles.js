@@ -38,7 +38,7 @@ text-shadow: 2px 2px 2px black;
 padding: 10px;
 `;
 
-export default class TodoApp extends Component {
+export default class AppTitles extends Component {
   render() {
     return (
       <MAIN>
