@@ -38,6 +38,7 @@ const TITLE = styled.div`
   font-weight: bold;
   font-size: 1.8em;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
   padding: 10px;
 `;
 
