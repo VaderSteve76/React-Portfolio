@@ -15,7 +15,7 @@ const IMG = styled.div`
   height: 450px;
   width: 600px;
   box-shadow: 8px 8px 8px black;
-  border-radius: 6px;
+  border-radius: 5px;
   background-image: url(${tea});
   background-position: center; 
   background-repeat: no-repeat; 
@@ -28,7 +28,7 @@ const ABOUT = styled.div`
   height: 450px;
   width: 600px;
   box-shadow: 8px 8px 8px black;
-  border-radius: 6px;
+  border-radius: 5px;
   margin-top: 25px;
   background: rgb(154, 154, 154);
 `;
