@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Components/Header';
-import ContactCard from './Components/ContactCard';
-import ImageCard from './Components/ImageCard';
-import AppTitle from './Components/AppTitles';
+import Header from './Components/Header/Header';
+import ContactCard from './Components/ContactCard/ContactCard';
+import ImageCard from './Components/ImageCard/ImageCard';
+import AppTitle from './Components/AppTitle/AppTitles';
 import './App.css';
 
 function App() {
