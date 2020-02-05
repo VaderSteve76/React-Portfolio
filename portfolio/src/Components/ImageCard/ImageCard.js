@@ -19,7 +19,7 @@ export default class ImageCard extends Component {
           <S.INFO>Avid video gamer pc & console</S.INFO>
           <S.INFO>Huge fan of baseball (Rays, Cubs, A's)</S.INFO>
           <S.INFO>Avid fisherman and kayaker</S.INFO>
-          <S.INFO>Am a veteran of the USMC</S.INFO>
+          <S.INFO>A veteran of the USMC</S.INFO>
       </S.ABOUT>
       </S.MAIN>
       
