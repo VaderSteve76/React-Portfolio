@@ -4,7 +4,7 @@ import { slideInRight } from 'react-animations';
 const slideIn = keyframes`${slideInRight}`;
 
 export const Header = styled.div`
-  animation: 3.3s ${slideIn};
+  animation: 3.2s ${slideIn};
   height: 75px;
   width: 75%;
   margin: 0 auto;
