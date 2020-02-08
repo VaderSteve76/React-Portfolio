@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 
 function Todo({ todo, index, completeTodo, removeTodo }) {
   return (
@@ -8,7 +7,6 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
       style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
     >
       {todo.text}
-
       <div>
         <button onClick={() => completeTodo(index)}>Complete</button>
         <button onClick={() => removeTodo(index)}>x</button>
