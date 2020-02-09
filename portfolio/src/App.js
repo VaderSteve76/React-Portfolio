@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import ContactCard from './Components/ContactCard/ContactCard';
 import ImageCard from './Components/ImageCard/ImageCard';
 import AppTitle from './Components/AppTitle/AppTitles';
-import TodoApp from './Components/TodoApp/TodoApp';
+import AppContainer from './Components/AppContainer/AppContainer';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <ContactCard />
       <ImageCard />
       <AppTitle />
-      <TodoApp />
+      <AppContainer />
     </div>
   );
 }
