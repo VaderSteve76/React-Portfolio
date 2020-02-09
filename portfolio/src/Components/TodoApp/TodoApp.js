@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import * as S from './TodoAppStyles';
 
 function Todo({ todo, index, completeTodo, removeTodo }) {
   return (
@@ -72,8 +73,8 @@ function TodoApp() {
   };
 
   return (
-    <div className="app">
-      <div className="todo-list">
+    <S.TodoApp>
+      <S.TodoList>
         {todos.map((todo, index) => (
           <Todo
             key={index}
@@ -84,8 +85,8 @@ function TodoApp() {
           />
         ))}
         <TodoForm addTodo={addTodo} />
-      </div>
-    </div>
+      </S.TodoList>
+    </S.TodoApp>
   );
 }
 
