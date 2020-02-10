@@ -1,10 +1,6 @@
-import styled, { keyframes } from 'styled-components';
-import { slideInLeft } from 'react-animations';
-
-const slideIn = keyframes`${slideInLeft}`;
+import styled from 'styled-components';
 
 export const TodoApp = styled.div`
-  animation: 2.7s ${slideIn};
   height: 450px;
   width: 595px;
   box-shadow: 8px 8px 8px black;
