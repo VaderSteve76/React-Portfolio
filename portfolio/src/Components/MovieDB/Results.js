@@ -1,13 +1,15 @@
 import React from 'react';
 import Result from './Result';
+import * as S from './MovieDBStyles';
+
 
 function Results ({ results, openPopup }) {
 	return (
-		<section className="results">
+		<S.Results2>
 			{results.map(result => (
 				<Result key={result.imdbID} result={result} openPopup={openPopup} />
 			))}
-		</section>
+		</S.Results2>
 	)
 }
 

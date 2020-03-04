@@ -53,13 +53,8 @@ function Movie() {
 
   return (
     <S.MovieApp>
-      {/* <header>
-        <h1>Movie Database</h1>
-      </header> */}
         <Search handleInput={handleInput} search={search} />
-
         <Results results={state.results} openPopup={openPopup} />
-
         {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} closePopup={closePopup} /> : false}
     </S.MovieApp>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
+import * as S from './MovieDBStyles';
 
 function Result({ result, openPopup }) {
 	return (
-		<div className="result" onClick={() => openPopup(result.imdbID)}>
+		<S.Results1 onClick={() => openPopup(result.imdbID)}>
 			<img src={result.Poster} alt="movie poster" />
 			<h3>{result.Title}</h3>
-		</div>
+		</S.Results1>
 	)
 }
 
