@@ -3,6 +3,7 @@ import axios from 'axios';
 import Search from '../MovieDB/Search';
 import Results from '../MovieDB/Results';
 import Popup from '../MovieDB/Popup';
+import * as S from './MovieDBStyles';
 
 function Movie() {
   const [state, setState] = useState({
@@ -51,16 +52,16 @@ function Movie() {
   }
 
   return (
-    <main>
-      <header>
+    <S.MovieApp>
+      {/* <header>
         <h1>Movie Database</h1>
-      </header>
+      </header> */}
         <Search handleInput={handleInput} search={search} />
 
         <Results results={state.results} openPopup={openPopup} />
 
         {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} closePopup={closePopup} /> : false}
-    </main>
+    </S.MovieApp>
   );
 }
 

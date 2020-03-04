@@ -6,4 +6,6 @@ const slideIn = keyframes`${slideInLeft}`;
 export const AppMain = styled.div`
   animation: 2.7s ${slideIn};
   margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
 `;

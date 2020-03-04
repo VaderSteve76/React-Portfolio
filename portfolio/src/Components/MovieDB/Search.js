@@ -1,16 +1,17 @@
 import React from 'react';
+import * as S from '../MovieDB/MovieDBStyles';
 
 function Search({ handleInput, search }) {
   return (
-    <section className="searchbox-wrap">
+    <S.SearchBox>
       <input type="text" 
         placeholder="Search for a movie..." 
         className="searchbox" 
         onChange={handleInput} 
         onKeyPress={search}
       />
-    </section>
+    </S.SearchBox>
   )
 }
 
-export default Search
+export default Search;
