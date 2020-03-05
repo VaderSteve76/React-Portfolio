@@ -1,8 +1,10 @@
 import React from 'react';
+import * as S from './MovieDBStyles';
+
 
 function Popup({ selected, closePopup }) {
 	return (
-		<section className="popup">
+		<S.Popup>
 			<div className="content">
 				<h2>{ selected.Title } <span>({ selected.Year })</span></h2>
 				<p className="rating">Rating: {selected.imdbRating}</p>
@@ -12,7 +14,7 @@ function Popup({ selected, closePopup }) {
 				</div>
 				<button className="close" onClick={closePopup}>Close</button>
 			</div>
-		</section>
+		</S.Popup>
 	)
 }
 

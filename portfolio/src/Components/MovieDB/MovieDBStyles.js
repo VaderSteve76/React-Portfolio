@@ -38,3 +38,15 @@ export const Results2 = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
+
+export const Popup = styled.div`
+  position: fixed;
+  bottom: 250px;
+  left: 550px;
+  width: 550px;
+  height: 450px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgb(154, 154, 154);
+  overflow-y: scroll;
+`;
