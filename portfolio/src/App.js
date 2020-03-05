@@ -4,6 +4,7 @@ import ContactCard from './Components/ContactCard/ContactCard';
 import ImageCard from './Components/ImageCard/ImageCard';
 import AppTitle from './Components/AppTitle/AppTitles';
 import AppContainer from './Components/AppContainer/AppContainer';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ImageCard />
       <AppTitle />
       <AppContainer />
+      <Footer />
     </div>
   );
 }
