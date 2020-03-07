@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from '../MovieDB/MovieDBStyles';
+import * as S from './movieDBStyles';
 
 function Search({ handleInput, search }) {
   return (

@@ -24,19 +24,21 @@ export const SearchBox = styled.div`
 `;
 
 export const Results1 = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 70px;
-  width: 70px;
-  padding: 5px;
+  // border: solid red 1px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // height: 70px;
+  // width: 70px;
+  // padding: 5px;
 `;
 
 export const Results2 = styled.div`
-  width: 594px;
-  height: 406px;
-  display: flex;
-  flex-wrap: wrap;
+  // border: solid red 1px;
+  // width: 594px;
+  // height: 406px;
+  // display: flex;
+  // flex-wrap: wrap;
 `;
 
 export const Popup = styled.div`
