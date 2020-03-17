@@ -25,20 +25,20 @@ export const SearchBox = styled.div`
 
 export const Results1 = styled.div`
   // border: solid red 1px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
-  // height: 70px;
-  // width: 70px;
-  // padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  width: 70px;
+  padding: 5px;
 `;
 
 export const Results2 = styled.div`
   // border: solid red 1px;
-  // width: 594px;
-  // height: 406px;
-  // display: flex;
-  // flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  width: 594px;
+  height: 406px;
 `;
 
 export const Popup = styled.div`
