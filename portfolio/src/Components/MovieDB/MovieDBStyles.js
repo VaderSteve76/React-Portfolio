@@ -46,7 +46,7 @@ export const Popup = styled.div`
   bottom: 250px;
   left: 550px;
   width: 550px;
-  height: 450px;
+  height: 550px;
   border-radius: 5px;
   padding: 15px;
   background-color: rgb(154, 154, 154);
