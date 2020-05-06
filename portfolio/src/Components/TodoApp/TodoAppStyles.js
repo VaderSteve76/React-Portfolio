@@ -9,6 +9,9 @@ export const TodoApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media(max-width: 1024px) {
+    height: 400px;
+  }
 `;
 
 export const TodoList = styled.div`

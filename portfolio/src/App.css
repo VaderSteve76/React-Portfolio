@@ -25,10 +25,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
 	width: 1280px;
+	line-height: 1;
 	margin: 0 auto;
-	background-image: url('./Img/Black_background-2.jpg');
+	/* background-image: url('./Img/Black_background-2.jpg'); */
+	background: #3579B4;
+	border: solid red 1px;
 }
 
 ol, ul {

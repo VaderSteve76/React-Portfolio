@@ -8,5 +8,10 @@ export const AppMain = styled.div`
   margin-top: 75px;
   display: flex;
   justify-content: space-around;
-  border: solid red 1px;
+  @media(max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    margin-top: 25px;
+  }
 `;

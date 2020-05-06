@@ -12,7 +12,7 @@ export const MainCard = styled.div`
   background: rgb(154, 154, 154);
   box-shadow: 8px 8px 8px black;
   height: 40px;
-  width: 600px;
+  width: 583px;
   margin: 0 auto;
   margin-top: 25px;
   text-align: center;

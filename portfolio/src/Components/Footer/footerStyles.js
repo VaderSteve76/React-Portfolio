@@ -12,7 +12,7 @@ export const Footer = styled.div`
   background: rgb(154, 154, 154);
   box-shadow: 8px 8px 8px black;
   height: 50px;
-  width: 600px;
+  width: 553px;
   margin: 0 auto;
   padding: 10px;
   margin-top: 25px;

@@ -7,6 +7,9 @@ export const MovieApp = styled.div`
   border-radius: 5px;
   background: rgb(154, 154, 154);
   justify-content: space-around;
+  @media*(max-width: 1024px) {
+    height: 400px;
+  }
 `;
 
 export const SearchBox = styled.div`
@@ -49,4 +52,7 @@ export const Popup = styled.div`
   padding: 15px;
   background-color: rgb(154, 154, 154);
   overflow-y: scroll;
+  @media(max-width: 1024px) {
+    left: 350px;
+  }
 `;

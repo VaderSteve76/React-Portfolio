@@ -14,7 +14,7 @@ export const Header = styled.div`
 export const Title = styled.div`
   font-size: 2.5em;
   font-family: Trebuchet MS;
-  color: rgb(40, 40, 255);
+  // color: rgb(40, 40, 255);
   margin: 0 auto;
   padding-top: 15px;
   letter-spacing: 8px;

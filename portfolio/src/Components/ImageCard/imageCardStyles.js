@@ -7,7 +7,10 @@ const slideIn = keyframes`${slideInLeft}`;
 export const MAIN = styled.div`
   display: flex;
   justify-content: space-around;
-  border: solid red 1px;
+  @media(max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const IMG = styled.div`

@@ -7,7 +7,9 @@ export const MAIN = styled.div`
   animation: 2.7s ${slideIn};
   display: flex;
   justify-content: space-around;
-  border: solid red 1px;
+  @media(max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const TODO = styled.div`
