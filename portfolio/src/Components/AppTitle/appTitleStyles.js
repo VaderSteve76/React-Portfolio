@@ -6,12 +6,13 @@ const slideIn = keyframes`${slideInRight}`;
 export const MAIN = styled.div`
   animation: 2.7s ${slideIn};
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: solid red 1px;
 `;
 
 export const TODO = styled.div`
   height: 50px;
-  width: 575px;
+  width: 44%;
   background: rgb(154, 154, 154);
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
@@ -25,7 +26,7 @@ export const TODO = styled.div`
 
 export const YouTube = styled.div`
 height: 50px;
-width: 575px;
+width: 44%;
 background: rgb(154, 154, 154);
 box-shadow: 8px 8px 8px black;
 border-radius: 5px;

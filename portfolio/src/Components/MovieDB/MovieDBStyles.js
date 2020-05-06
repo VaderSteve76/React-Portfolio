@@ -2,18 +2,16 @@ import styled from 'styled-components';
 
 export const MovieApp = styled.div`
   height: 450px;
-  width: 595px;
+  width: 45%;
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
   background: rgb(154, 154, 154);
-  // display: flex;
-  // align-items: center;
   justify-content: space-around;
 `;
 
 export const SearchBox = styled.div`
   display: block;
-  width: 575px;
+  width: 96.5%;
   padding: 10px;
   background-color: #eee;
   border-radius: 5px;

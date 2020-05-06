@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TodoApp = styled.div`
   height: 450px;
-  width: 595px;
+  width: 45%;
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
   background: rgb(154, 154, 154);
