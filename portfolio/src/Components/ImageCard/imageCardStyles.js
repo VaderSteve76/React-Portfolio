@@ -6,13 +6,14 @@ const slideIn = keyframes`${slideInLeft}`;
 
 export const MAIN = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: solid red 1px;
 `;
 
 export const IMG = styled.div`
   animation: 2.7s ${slideIn};
   height: 450px;
-  width: 600px;
+  width: 45%;
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
   background-image: url(${tea});
@@ -25,7 +26,7 @@ export const IMG = styled.div`
 export const ABOUT = styled.div`
   animation: 2.7s ${slideIn};
   height: 450px;
-  width: 600px;
+  width: 45%;
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
   margin-top: 25px;
