@@ -19,7 +19,7 @@ export const Title = styled.div`
   padding-top: 15px;
   letter-spacing: 8px;
   font-weight: bold;
-  text-shadow: 8px 8px 8px black;
+  text-shadow: 2px 2px 2px grey;
   text-align: center;
   transform: scale(1.5) skew(-8deg, 0deg);
 `;

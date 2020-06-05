@@ -20,9 +20,9 @@ export const IMG = styled.div`
   box-shadow: 8px 8px 8px black;
   border-radius: 5px;
   background-image: url(${tea});
-  background-position: center; 
+  background-position: cover; 
   background-repeat: no-repeat; 
-  background-size: 600px 450px;
+  background-size: 100%;
   margin-top: 25px;
 `;
 
