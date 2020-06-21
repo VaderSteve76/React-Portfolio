@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './movieDBStyles';
+import * as S from './MovieDBStyles';
 
 
 function Popup({ selected, closePopup }) {

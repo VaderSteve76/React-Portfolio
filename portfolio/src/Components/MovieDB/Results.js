@@ -1,6 +1,6 @@
 import React from 'react';
 import Result from './Result';
-import * as S from './movieDBStyles';
+import * as S from './MovieDBStyles';
 
 
 

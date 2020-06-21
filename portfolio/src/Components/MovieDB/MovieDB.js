@@ -3,7 +3,7 @@ import axios from 'axios';
 import Search from '../MovieDB/Search';
 import Results from '../MovieDB/Results';
 import Popup from '../MovieDB/Popup';
-import * as S from './movieDBStyles';
+import * as S from './MovieDBStyles';
 
 function Movie() {
   const [state, setState] = useState({

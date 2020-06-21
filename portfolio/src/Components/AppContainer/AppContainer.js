@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as S from './appContainerStyles';
+import * as S from './AppContainerStyles';
 import TodoApp from '../TodoApp/TodoApp';
 import Movie from '../MovieDB/MovieDB';
 
